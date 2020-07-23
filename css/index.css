@@ -3,7 +3,7 @@
 @import "common.css";
 
 
-#section { padding-top: 117px;}
+#section { padding-top: 117px; position: relative;}
 .slideOuter { height:600px; 
     overflow:hidden; position:relative; }
 .slideOuter .arr {
