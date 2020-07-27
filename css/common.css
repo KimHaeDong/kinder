@@ -21,7 +21,7 @@
 .topmenu .login { position:absolute; top:0; right:0; color: #000; }
 .topmenu .login a { padding-left:10px; font-size:11px }
 
-.topmenu .search_box { position: absolute; top: 0; left: 150px;}
+.topmenu .search_box { position: absolute; top: 0; right: 50%; transform: translate(50%);}
 .topmenu .search_box fieldset { border: 1px solid #ccc; padding-right: 5px; 
     border-radius: 3px; background: #fff;}
 .topmenu .search_box input {border: none; padding: 4px 0.5em; outline: none;}
@@ -32,13 +32,14 @@
 
 .logoNav { position:relative; height:76px; }
 .logoNav h1 { color:#ffae3d; 
-    font-size:26.25px; line-height:76px;
-    font-weight:bold;  }
+    font-size:26.25px; padding: 24.875px 0px 24px;
+    font-weight:bold; line-height: 1;  }
 .logoNav .nav { position:absolute; top:0; right:0; }
 .logoNav .nav .depth1 > li { display: inline-block;
-    font-size:15.75px; line-height:76px;
-    padding-left:30px; font-weight:bold; position: relative;
-    transition:all 0.5s }
+    font-size:15.75px; 
+    font-weight:bold; position: relative;
+    transition:all 0.5s; }
+.logoNav .nav .depth1 > li > a { display: inline-block; padding: 27.5px 0px 27.5px 30px;}
 .logoNav .nav .depth1 > li:hover { 
     color:#ffd23c; }
 .logoNav .nav .depth1 > li:first-child { color:#ffd23c }
@@ -79,15 +80,3 @@
 .copyright { background:#0a0a0a; font-size: 10.5px; padding: 10px 0px; color: #333;}
 
 
-@media only screen and (max-width:1170px) {
-    .row { padding: 0 10px;}
-}
-
-@media only screen and (max-width:992px) {
-    .logoNav { position:relative; height:auto; }
-    .logoNav h1 { color:#ffae3d; 
-        font-size:26.25px; line-height:76px;
-        font-weight:bold; text-align: center; }
-    .logoNav .nav { position:static; top:0; right:0;
-    text-align: center;}
-}
