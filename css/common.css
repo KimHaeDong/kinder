@@ -33,7 +33,7 @@
 .logoNav { position:relative; height:76px; }
 .logoNav h1 { color:#ffae3d; 
     font-size:26.25px; padding: 24.875px 0px 24px;
-    font-weight:bold; line-height: 1;  }
+    font-weight:bold; line-height: 1; }
 .logoNav .open_nav { display: none;}
 .logoNav .close_nav { display: none;}
 .logoNav .nav { position:absolute; top:0; right:0; }
