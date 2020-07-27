@@ -23,8 +23,8 @@
 
 .topmenu .search_box { position: absolute; top: 0; left: 150px;}
 .topmenu .search_box fieldset { border: 1px solid #ccc; padding-right: 5px; 
-    border-radius: 2px; background: #fff;}
-.topmenu .search_box input {border: none; padding: 4px 0.5em;}
+    border-radius: 3px; background: #fff;}
+.topmenu .search_box input {border: none; padding: 4px 0.5em; outline: none;}
 
 
 
