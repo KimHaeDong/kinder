@@ -19,7 +19,9 @@ width: 15px; font-weight: bold; font-size: 17px; color: #f00;}
 .join_form .info_content input[type=text], .join_form .info_content select, .join_form .info_content input[type=date],
 .join_form .info_content input[type=password] { height: 45px; border: 1px solid #ccc; 
     padding:0 1em; vertical-align: top;}
-.join_form .info_content select { -webkit-appearance: none; background: transparent; }
+.join_form .info_content select { -webkit-appearance: none; background: transparent;
+    background: transparent; position: relative; z-index: 99999;
+    }
 .join_form .info_content select::-ms-expand { display: none; }
 
 
